@@ -1,0 +1,162 @@
+```gitignore
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+downloads/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================
+# Virtual Environment
+# ==========================
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+!.env.example
+
+# ==========================
+# Logs
+# ==========================
+*.log
+logs/
+
+# ==========================
+# IDE
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================
+# Jupyter Notebook
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# Testing
+# ==========================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ==========================
+# Type Checking
+# ==========================
+.mypy_cache/
+.pyre/
+.pytype/
+
+# ==========================
+# Ruff / Black
+# ==========================
+.ruff_cache/
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# SQLite Database
+# ==========================
+*.db
+*.sqlite3
+
+# ==========================
+# Vector Databases
+# ==========================
+chroma/
+chroma_db/
+vectorstore/
+faiss_index/
+*.faiss
+
+# ==========================
+# Model Files
+# ==========================
+models/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.gguf
+
+# ==========================
+# Temporary Files
+# ==========================
+tmp/
+temp/
+.cache/
+
+# ==========================
+# Generated Files
+# ==========================
+output/
+outputs/
+generated/
+reports/
+*.pdf
+
+# ==========================
+# Uploads
+# ==========================
+uploads/
+
+# ==========================
+# Secrets
+# ==========================
+secrets/
+credentials.json
+service_account.json
+
+# ==========================
+# Node (Frontend)
+# ==========================
+node_modules/
+.next/
+dist/
+npm-debug.log*
+yarn-error.log
+
+# ==========================
+# Docker
+# ==========================
+*.pid
+docker-compose.override.yml
+
+# ==========================
+# Misc
+# ==========================
+*.bak
+*.tmp
+
+generated_pdfs/
+```
