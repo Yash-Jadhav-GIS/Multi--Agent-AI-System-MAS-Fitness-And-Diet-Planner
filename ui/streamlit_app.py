@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 from datetime import date
 
-API_BASE = "http://127.0.0.1:5000/api"
+API_BASE = "http://127.0.0.1:8005/api"
 
 st.set_page_config(page_title="AI Fitness & Diet Planner", page_icon="💪")
 st.title("💪 AI Fitness & Diet Planner")
@@ -40,6 +40,26 @@ if submitted:
         "goal": goal,
         "food_preference": food_preference,
         "workout_preference": workout_preference,
+        "indian_region": None,
+        "target_weight_kg": None,
+        "waist_cm": None,
+        "hip_cm": None,
+        "neck_cm": None,
+        "wrist_cm": None,
+        "chest_cm": None,
+        "thigh_cm": None,
+        "belly_hip_cm": None,
+        "biceps_cm": None,
+        "occupation": None,
+        "sleep_hours": None,
+        "stress_level": None,
+        "daily_grains": None,
+        "foods_to_include": None,
+        "foods_to_exclude": None,
+        "food_allergies": None,
+        "current_medications": None,
+        "has_ongoing_plan": None,
+        "timeline_weeks": 12,
     }
     st.session_state["payload"] = payload
 

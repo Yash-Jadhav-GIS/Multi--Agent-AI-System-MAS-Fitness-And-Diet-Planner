@@ -159,5 +159,5 @@ docker-compose.override.yml
 *.bak
 *.tmp
 
-generated_pdfs/
+*.git generated_pdfs/
 ```
